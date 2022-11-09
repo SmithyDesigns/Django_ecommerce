@@ -72,7 +72,6 @@ def authenticate_user(request):
             reverse('store')
         )
 
-
 def log_out_view(request):
     """
     It logs out the user and redirects them to the store page
